@@ -9,6 +9,7 @@ print(x+1)
 name="shaam"
 print("my name is :",name)
 age =12
+
 age2=age
 print(age)
 print(type(name))
@@ -45,3 +46,32 @@ print(a>b)
 num=10
 num+=10
 print("num :",num)
+num=10 
+num**=5
+print("num :",num)
+a=50
+b=30
+print(not False)
+print(not(a>b))
+val1 =False
+val2=False
+print("AND operator :",val1 and val2)
+print("OR operator :",(a==b)or (a>b))
+a=2
+b=4.25
+sum=a+b
+print(sum)
+c=int("2")
+d=4.45
+sum=c+d
+print(type(c ))
+print(sum)
+first=int(input("enter the number : "))
+second=int(input("enter the number : "))
+print("sum=",first+second)
+a=float(input("enter the number : "))
+b=float(input("enter the number : "))
+print("avg=",a+b/2)
+c=int(input("enter the number : "))
+d=int(input("enter the number : "))
+print(c>=d)
