@@ -19,3 +19,7 @@ print(my_name[2])
 print(my_name[3])
 print(my_name[4])
 print(my_name[5])
+
+name2="mahesh mane"
+print(name2[-1])
+print(name2[6])
