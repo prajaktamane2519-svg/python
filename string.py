@@ -23,3 +23,6 @@ print(my_name[5])
 name2="mahesh mane"
 print(name2[-1])
 print(name2[6])
+name3="geettanjali"
+print(name3[0:7])
+print(name3[0:11:6])
