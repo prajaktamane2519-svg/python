@@ -31,3 +31,7 @@ print(name3[-1:])
 print(name3[-3:])
 print(name3[ : ])
 print(name3[::-1])
+word ="Hello, sachin"
+print(len(word))
+print(word.upper())
+print(word.lower())
