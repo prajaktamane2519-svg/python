@@ -26,3 +26,8 @@ print(name2[6])
 name3="geettanjali"
 print(name3[0:7])
 print(name3[0:11:6])
+print(name3[1:4])
+print(name3[-1:])
+print(name3[-3:])
+print(name3[ : ])
+print(name3[::-1])
