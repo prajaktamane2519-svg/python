@@ -35,3 +35,14 @@ word ="Hello, sachin"
 print(len(word))
 print(word.upper())
 print(word.lower())
+a="komal"
+print(a)
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(a[ ::-1])
+text=input("enter the string : ")
+if text==text[::-1]:
+    print("palindrome")
+else :
+    print("not palindrome")
