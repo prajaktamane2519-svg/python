@@ -46,3 +46,12 @@ if text==text[::-1]:
     print("palindrome")
 else :
     print("not palindrome")
+
+    text=input("Enter a string")
+    count=0
+    for ch in text.lower():
+        if ch in "aeiou":
+            count+=1
+    print("vowel=",count)
+    text=input("enter the string :")
+  
