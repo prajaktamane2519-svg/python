@@ -44,3 +44,8 @@ print(index)
 fruits=["apple","banana","cherry","cherry","banana"]
 fruits.reverse()
 print(fruits)
+fruits=["apple","banana","cherry","cherry","banana"]
+fruits.sort()
+print(fruits)
+fruits.sort(key=len,reverse=True)
+print(fruits)
