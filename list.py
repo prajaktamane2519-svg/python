@@ -21,3 +21,11 @@ my_list4[1]='blueberry'
 print(my_list4)
 my_list4.append("mango")
 print(my_list4)
+my_list4.remove("cherry")
+print(my_list4)
+colour=["pink","red","white"]
+colour.append("black")
+print(colour)
+colour1=["yellow","orage"]
+colour.extend(colour1)
+print(colour)
