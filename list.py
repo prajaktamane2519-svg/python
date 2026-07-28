@@ -29,3 +29,5 @@ print(colour)
 colour1=["yellow","orage"]
 colour.extend(colour1)
 print(colour)
+colour.remove("red")
+print(colour)
