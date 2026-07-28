@@ -49,7 +49,18 @@ for num in numbers:
         smallest=num
         print("smallest=",smallest)
 for num in range(2,101):
-    if num%i==0:
-        break
-else:
-     print(num)
+    for i in range(2,num):
+         if num%i==0:
+            break
+    else:
+           print(num)
+     
+for i in range(1,6):
+    print("*"* i)
+number=[10,20,30,40,0,60,70]
+total=0
+for num in number:
+    total+=num
+print("sum=",total)
+for i in range(1,51):
+    if i%3==0 and i%6
