@@ -31,3 +31,16 @@ colour.extend(colour1)
 print(colour)
 colour.remove("red")
 print(colour)
+fruits=["apple","orange"]
+fruits.insert(1,"blueberry")
+print(fruits)
+fruits=["apple","banana","cherry","cherry","banana"]
+index=fruits.index("cherry")
+print(index)
+index=fruits.index("banana",1)
+print(index)
+index=fruits.index("banana")
+print(index)
+fruits=["apple","banana","cherry","cherry","banana"]
+fruits.reverse()
+print(fruits)
