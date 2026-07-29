@@ -61,3 +61,22 @@ print(copy_fruits)
 copy_fruits.append("mango")
 print(copy_fruits)
 print(fruits)
+
+list1=[1,5,7,8]
+list2=[2,4,9,78]
+final_list=list1+list2
+print(final_list)
+for x in list2:
+    list1.append(x)
+print(list1)
+list1.extend(list2)
+print(list1)
+square=[x**2 for x in range(1,6)]
+print(square)
+even_list=[x for x in range(1,10) if x%2==0]
+print(even_list)
+fruits=["apple","banana","cherry","cherry","banana"]
+print(fruits)
+uppercase_list=[1st.upper() for 1st in fruits]
+print(uppercase_list)
+

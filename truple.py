@@ -1,0 +1,5 @@
+fruit=('apple','mango','orng')
+print(fruit)
+my_tuple=(1,2,7)
+print(my_tuple)
+print(type(my_tuple))
