@@ -11,3 +11,6 @@ print(type(my_tuple))
 tuple2=tuple((1,5,6))
 print(type(tuple2))
 print(tuple2)
+list=["sg","pv"]
+new_tuple=tuple(list)
+print(new_tuple)
