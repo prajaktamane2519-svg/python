@@ -25,3 +25,10 @@ tuple1=[1,2]
 tuple2=['a','d','c']
 tuple3=tuple1+tuple2
 print(tuple3)
+tuple3=(1,3,6)*4
+print(tuple3)
+tuple4=(1,3,6)
+print(10 in tuple4)
+fruits=('apple','mango','cherry')
+for i in fruits:
+    print(i)
