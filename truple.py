@@ -32,3 +32,19 @@ print(10 in tuple4)
 fruits=('apple','mango','cherry')
 for i in fruits:
     print(i)
+    i=0
+    while i<len(fruits):
+        print(fruits[i])
+        i+=1
+    color=('blue','red','orage','green')
+    print(color.count('green'))
+    print(color.index('blue'))
+    numbers=(2,3,4,1)
+    print(len(numbers))
+    print(sum(numbers))
+    print(min(numbers))
+    print(max(numbers))
+    a=sorted(numbers)
+    num_sorted=tuple(a)
+    print(num_sorted)
+
