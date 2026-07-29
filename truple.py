@@ -14,3 +14,14 @@ print(tuple2)
 list=["sg","pv"]
 new_tuple=tuple(list)
 print(new_tuple)
+a=("a", )
+print(a)
+fruits=('apple','mango','orange')
+print(fruits[1])
+print(fruits[2])
+print(fruits[0])
+print(fruits[-1])
+tuple1=[1,2]
+tuple2=['a','d','c']
+tuple3=tuple1+tuple2
+print(tuple3)
