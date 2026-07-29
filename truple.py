@@ -47,4 +47,12 @@ for i in fruits:
     a=sorted(numbers)
     num_sorted=tuple(a)
     print(num_sorted)
-
+a="geet"
+b=23
+c="teacger"
+tuple_pack=a,b,c
+print(tuple_pack)
+name,age,profession=tuple_pack
+print(name)
+print(age)
+print(profession)
