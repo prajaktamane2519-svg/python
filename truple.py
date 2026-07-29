@@ -8,3 +8,6 @@ print(my_tuble)
 truple=1,2,3
 print(my_tuple)
 print(type(my_tuple))
+tuple2=tuple((1,5,6))
+print(type(tuple2))
+print(tuple2)
