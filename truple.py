@@ -3,3 +3,8 @@ print(fruit)
 my_tuple=(1,2,7)
 print(my_tuple)
 print(type(my_tuple))
+my_tuble=(1,"geet",True,3.15)
+print(my_tuble)
+truple=1,2,3
+print(my_tuple)
+print(type(my_tuple))
