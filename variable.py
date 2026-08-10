@@ -28,3 +28,46 @@ b="python"
 print(type(b))
 numbew=100
 print(numbew)
+r=20
+r=r-5
+print(r)
+x=30
+x=x*2
+print(x)
+x=10
+x+=10
+print(x)
+a="akash"
+b="nikam"
+print(a+b)
+b=30
+b-=5
+print(b)
+name="mane"
+print(len(name))
+print(name.upper())
+print(name.lower())
+a="34"
+print(a)
+x="20"
+y="40"
+print(x+y)
+print(int(x)+int(y))
+a=10
+b=20
+c=40
+print(a+b+c)
+money=1000
+expense=500
+remaining=money-expense
+print(remaining)
+length=45
+width=5
+area=length*width
+print(area)
+name="praj"
+age=21
+marks=67
+print("Name :",name)
+print("Age :",age)
+print("Marks :",marks)
