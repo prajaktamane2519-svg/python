@@ -56,3 +56,5 @@ name,age,profession=tuple_pack
 print(name)
 print(age)
 print(profession)
+tuple_numbers=(10,20,30)
+
