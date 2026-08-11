@@ -71,3 +71,77 @@ marks=67
 print("Name :",name)
 print("Age :",age)
 print("Marks :",marks)
+age=25
+print(age)
+x="10"
+print(int(x))
+price=10.7
+print(type(price))
+name="python"
+print(len(name))
+x=10
+x*=3
+
+print(x)
+x=4
+cube=x**3
+print(cube)
+a=20 
+b=30
+average=(a+b)/2
+print(average)
+x="100"
+print(type(x))
+x=False
+print(type(x))
+x=10
+y=5.5
+print(type(x+y))
+list=["mango","apple","grapes"]
+print(list)
+a={"name":"ask", "age" :23
+}
+print(a)
+t1=(1,2,3)
+print(t1[2])
+number={10,23,67}
+print(number)
+a=10
+b=20
+print(a+b)
+a=20
+b=50
+print(a-b)
+c=23
+d=5
+print(c*d)
+c=50
+d=5
+print(c/d)
+c=17 
+d=5
+g=c%d
+print(g)
+a=2
+b=2**5
+print(b)
+a=20
+b=10
+print(a>b)
+print(b<a)
+
+age=25
+salary=30000
+print(age>18 and salary>20000)
+x=10
+x+=3
+print(x)
+x=10
+x*=3
+print(x)
+m=23
+g=56
+h=78
+total=m+g+h
+print("total marks:",total)
+print()
