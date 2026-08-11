@@ -36,3 +36,30 @@ for i in range(1,101):
     if i%7==0:
         count+=1
 print(count)
+for i in range(1,10):
+    if i%2==0:
+        print(i,"even number")
+    else:
+        print(i,"odd number")
+number=[10,23,5,78]  
+largest=number[0]
+for i in number:
+    if i>largest:
+        largest=i
+    print(largest)   
+i=1
+while i<=10:
+    print(i)
+    i+=1
+i =10
+while i>=1:
+    print(i)
+    i-=1
+i=2
+while i<=50:
+    print(i)
+    i+=2
+i=1
+while i<=50:
+    print(i)
+    i+=2
