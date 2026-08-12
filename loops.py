@@ -63,3 +63,24 @@ i=1
 while i<=50:
     print(i)
     i+=2
+i=2
+while i<50:
+    print(i)
+    i+=2
+i=2
+while i<10:
+    print(i)
+    i+=2
+n=int(input("enter the number : "))
+i=1
+while i<=10:
+   print(i*n)
+i+=1
+a=int(input("enter the number :"))
+
+n=int(input("Enter the number :"))
+count=0
+while n>0:
+    n//=10
+    count+=1
+print(count)
