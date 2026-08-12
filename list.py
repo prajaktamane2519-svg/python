@@ -99,3 +99,17 @@ number.insert(2,50)
 print(number)
 number.insert(0,100)
 print(number)
+number.remove(50)
+print(number)
+number.remove(100)
+print(number)
+number.pop(2)
+print(number)
+number.pop(2)
+print(number)
+number=[2,4,6,7,8]
+print(len(number))
+number=[]
+print(len(number))
+a=[1,4,6,7]
+print(len(a))
