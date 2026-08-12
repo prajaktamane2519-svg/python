@@ -77,6 +77,12 @@ even_list=[x for x in range(1,10) if x%2==0]
 print(even_list)
 fruits=["apple","banana","cherry","cherry","banana"]
 print(fruits)
-uppercase_list=[1st.upper() for 1st in fruits]
-print(uppercase_list)
 
+fruit=["Apple","mango","orang","grapes"]
+print(fruit)
+print(fruit[0])
+print(fruit[1])
+print(fruit[2])
+print(fruit[-1])
+print(fruit[-2])
+print(fruit[-3])
