@@ -15,3 +15,6 @@ for i in number:
     print(i)
 number=(10,20,10,40,10)
 print(number.count(10))
+print(number.count(20))
+print(number.index(20))
+print(40 in number)
