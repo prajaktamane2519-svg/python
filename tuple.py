@@ -10,3 +10,8 @@ number=(2,)
 print(number)
 a=(3,"hk",5.12)
 print(a)
+number=(10,20,30,40)
+for i in number:
+    print(i)
+number=(10,20,10,40,10)
+print(number.count(10))
