@@ -1,3 +1,15 @@
 age=25
 print(age)
 print(type(age))
+name="sti"
+print(name)
+print(type(name))
+a=18.9
+print(a)
+print(type(a))
+x=6
+print(type(x))
+number=[10,30,40,60]
+print(type(number))
+number={10,30,20,40}
+print(type(number))
