@@ -38,3 +38,63 @@ elif marks>50:
     print("medium")
 else:
     print("low")
+a=50
+if a>0:
+    print("positive number")
+else:
+    print("negative number")
+a=45
+if a%2==0:
+    print("number is even")
+else:
+    print("number is odd")
+a=23
+if a>=18:
+    print("vote for eligible")
+else:
+    print("not vote for eligible")
+a=32
+if a==0:
+    print("zero number")
+else:
+    print("not zero")
+a=45
+if a%5==0:
+    print("divisible by 5")
+else:
+    print("deivisible not by 5")
+
+a=3
+b=5
+if a==b:
+    print("two numbers are equal")
+else:
+    print("two numbers are not equal")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
