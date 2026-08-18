@@ -75,3 +75,13 @@ print("avg=",a+b/2)
 c=int(input("enter the number : "))
 d=int(input("enter the number : "))
 print(c>=d)
+total=500
+discount=10
+discount_amount=(total*discount)/100
+final_amount=total-discount_amount
+print(final_amount)
+a=10
+b=20
+c=30
+average=(a+b+c)/3
+print(average)

@@ -13,3 +13,60 @@ number=[10,30,40,60]
 print(type(number))
 number={10,30,20,40}
 print(type(number))
+a=50
+print(type(a))
+x="HelloWorld"
+print(type(x))
+a=[2,4,6,7,8]
+print(a)
+a=10
+b=30
+sum=a+b
+print(sum)
+a=20
+b=50 
+product=a*b
+print(product)
+print(a!=b)
+x=5
+x+=20
+print(x)
+x=7
+x-=2
+print(x)
+x=6
+x*=4
+print(x)
+a=50
+b=20
+sum=a+b
+sub=a-b
+product=a*b
+division=a/b
+print(sum)
+print(product)
+print(sub)
+print(division)
+a=25
+if a%2==0:
+    print("even")
+else:
+    print("odd")
+a=100
+b=50 
+print(a>b)
+print(a<b)
+print(a==b)
+print(a!=b)
+x=10
+x+=20
+print(x)
+age=25
+if  age>=18 and age<=60:
+    print("Age is between 18 and 60")
+else:
+    print("Age is not between 18 and 60")
+age=int(input("enter your age:"))
+print(age)
+price=float(input("enter your price :"))
+prinr(type(price))
