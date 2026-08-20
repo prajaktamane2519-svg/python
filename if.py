@@ -72,9 +72,32 @@ else:
     print("two numbers are not equal")
 
 
+a=10
+if a>0:
+    print("positive number")
+elif a<0:
+    print("negative number")
+else:
+    print("Zero number")
 
-
-
+age=5
+if age<21:
+    print("child")
+elif (age>21 and age<30):
+    print("young")
+else:
+    print("older")
+marks=67
+if marks>90:
+    print("grade A")
+elif marks>75 and marks<89:
+    print("grade B")
+elif marks>60 and marks<74:
+    print("grade C")
+elif marks>35 and marks<59:
+    print("grade D")
+else:
+    print("Fail")
 
 
 
