@@ -43,3 +43,27 @@ for x in number:
     if number.count(x)>1 and x not in duplicates:
         duplicates.append(x)
 print(duplicates)
+number={10,20,40,67}
+print(number)
+number.add(45)
+print(number)
+number.update([56,78])
+print(number)
+number.remove(20)
+print(number)
+a={1,2,5,6}
+b={6,8,0}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+
+
+
+
+
+
+
+
+
+
+
