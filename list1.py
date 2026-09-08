@@ -56,6 +56,13 @@ b={6,8,0}
 print(a.union(b))
 print(a.intersection(b))
 print(a.difference(b))
+student={"name":"ph",
+"age":20}
+print(student["name"])
+student["city"]="pune"
+print(student)
+student["age"]=67
+print(student)
 
 
 
