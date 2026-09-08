@@ -60,3 +60,15 @@ elif marks>=60:
     print("c")
 else:
     print("D")
+for i in range(1,11):
+    print(i)
+num=5
+for i in range(1,11):
+    print(num*i)
+total=0
+for i in range(1,101):
+  total=total+i
+print(total)
+for i in range(1,51):
+    if i%2==0:
+     print(i)
