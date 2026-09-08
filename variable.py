@@ -180,3 +180,8 @@ price=500
 quatity=3
 total=price*quatity
 print(total)
+name="py"
+age=57
+salary=13000
+print(name)
+print(age)
