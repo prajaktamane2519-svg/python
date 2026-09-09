@@ -72,3 +72,21 @@ print(total)
 for i in range(1,51):
     if i%2==0:
      print(i)
+text="python"
+print(text[::-1])
+print(text.upper())
+print(text.lower())
+print(text.capitalize())
+print(text.title())
+print(len(text))
+text="madam"
+if text==text[::-1]:
+    print("palidrram")
+else:
+    print("non palidram")
+text="i love python"
+count=0
+for i in text:
+    if i in"aeiou":
+        count+=1
+print(count)
