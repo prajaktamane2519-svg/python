@@ -134,5 +134,26 @@ a={1,2,4,7}
 b={5,8,9,7}
 print(a.union(b))
 print(a.intersection(b))
-
-          
+student={"name":"pra",
+"age":38,
+"marks":75}
+print(student)
+student={"name":"geet","age":6}
+student["city"]="pune"
+print(student)
+student["age"]=8
+print(student)
+def greet():
+    print("Hllo")
+ 
+greet()
+def add(a,b):
+    return a+b
+print(add(10,29))
+def square(num):
+    return num*num
+print(square(5))
+def even(num):
+    return True
+    return false
+print(even(10))
