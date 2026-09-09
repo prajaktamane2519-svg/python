@@ -95,4 +95,44 @@ for i in range(1,11):
 for i in range(1,21):
     if i%2==0:
         print(i)
-    
+total=0
+for i in range(1,11):
+    total+=i
+print(total)
+num=5
+for i in range(1,11):
+    print(num*i)
+num=5
+fact=1
+for i in range(1,num+1):
+    fact*=i
+print(fact)
+number=[10,20,30,40]
+print(number)
+print(max(number))
+
+number=[1,1,5,6,7,7]
+number=list(set(number))
+print(number)
+number=[10,20,30,40,65,78]
+for i in number:
+    if i%2==0:
+        print(i)
+number=(10,30,60,40)
+print(number)
+print(number[1])
+print(len(number))
+print(number.count(10))
+print(number.index(10))
+number={1,3,7,8}
+print(number)
+number.add(4)
+print(number)
+number.remove(7)
+print(number)
+a={1,2,4,7}
+b={5,8,9,7}
+print(a.union(b))
+print(a.intersection(b))
+
+          
