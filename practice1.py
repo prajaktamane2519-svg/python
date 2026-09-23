@@ -73,4 +73,53 @@ if word==word[::-1]:
     print("palindrome")
 else:
     print("not palidrome")
-    
+a=40
+b=60
+if a>b:
+    print("a is greather")
+else:
+    print("a is less")
+marks=75
+if marks>90:
+    print("A grade")
+elif marks>80:
+    print("B grade")
+elif marks>70:
+    print("c grade")
+else:
+    print("D grade")
+for i in range(1,10):
+    print(i)
+for i in range(2,21,2):
+    print(i)
+total=0
+for i in range(1,11):
+    total=total+i
+print(total)
+for i in range(1,11):
+    print(5*i)
+i=1
+while i<=5:
+    print(i)
+    i=i+1
+a="prthgfdsd"
+print(len(a))
+print(a.upper())
+print(a.lower())
+print("t"in text)
+print(text[::-1])
+fruit=["mango","orange","apple"]
+print(fruit)
+fruit.remove("orange")
+print(fruit)
+fruit.add("grapes")
+print(fruit)
+number=[10,20,39,67]
+print(len(number))
+number=[2,6,9,7,8]
+print(max(number))
+num=(4,6,8,9)
+print(num)
+print(num[2])
+print(len(num))
+print()

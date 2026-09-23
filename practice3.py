@@ -137,4 +137,23 @@ print(total)
 fruit=["apple","Banana","grapes"]
 for fruit in fruit:
     print(fruit)
+i=1
+total=0
+while i<=10:
+    total+=i
+    i+=1
+print(total)
+i=1
+while i<=10:
+    print(5*i)
+    i+=1
+for i in range(1,51):
+    if i%5==0:
+        print(i)
+total=0
+for i in range(1,11):
+    if i%2==0:
+        total+=i
+print(i) 
+
 
