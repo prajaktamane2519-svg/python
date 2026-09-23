@@ -44,3 +44,19 @@ i=2
 while i<=10:
     print(i)
     i+=2
+for i in range(1,11):
+    if i==5:
+        break
+    print(i)
+for i in range(1,100):
+    if i%5==0:
+        break
+    print(i)
+for i in range(1,11):
+    if i==5:
+        continue
+    print(i) 
+for i in range(1,50):
+    if i%2==0:
+        continue
+    print(i)
