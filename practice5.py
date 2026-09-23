@@ -69,3 +69,7 @@ number=[10,12,23,45,67]
 print(max(number))
 print(min(number))
 print(sum(number))
+number.append(89)
+print(number)
+number.remove(12)
+print(number)
