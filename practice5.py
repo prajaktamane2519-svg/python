@@ -62,3 +62,5 @@ for i in range(1,50):
     print(i)
 text="python"
 print(text[::-1])
+print(text.upper())
+print(text.lower())
