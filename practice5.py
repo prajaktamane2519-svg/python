@@ -64,3 +64,8 @@ text="python"
 print(text[::-1])
 print(text.upper())
 print(text.lower())
+print(text.replace("y","i"))
+number=[10,12,23,45,67]
+print(max(number))
+print(min(number))
+print(sum(number))
