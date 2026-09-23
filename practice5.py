@@ -31,3 +31,16 @@ elif marks>50:
     print("c grade")
 else:
     print("D grade")
+for i in range(1,11):
+    print(i)
+num=6
+for i in range(1,11):
+    print(num*i)
+i=1
+while i<=5:
+    print(i)
+    i+=1
+i=2
+while i<=10:
+    print(i)
+    i+=2
