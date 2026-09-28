@@ -32,3 +32,12 @@ if age>=18:
     print("votes eligible")
 else:
     print("votes not eligible")
+a=25
+b=40
+c=67
+if a>b and a>c:
+    print(a)
+elif b>c:
+    print(b)
+else:
+    print(c)
