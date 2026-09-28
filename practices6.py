@@ -41,3 +41,12 @@ elif b>c:
     print(b)
 else:
     print(c)
+marks=78
+if marks>=90:
+    print("A")
+elif marks>=75:
+    print("B")
+elif marks>60:
+    print("c")
+else:
+    print("Fail")
