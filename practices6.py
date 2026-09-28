@@ -17,3 +17,18 @@ if num%3==0 and num%5==0:
     print("divisible")
 else:
     print("not divisible")
+num=10
+if num>0:
+    print("positive")
+else:
+    print("negative")
+num=7
+if num%2==0:
+    print("even")
+else:
+    print("odd")
+age=20
+if age>=18:
+    print("votes eligible")
+else:
+    print("votes not eligible")
