@@ -35,3 +35,19 @@ result=tuple(number)
 print(result)
 print(max(number))
 
+number={10,565,7,8,9}
+print(number)
+number.add(19)
+number.remove(7)
+print(number)
+a={1,2,4}
+b={6,8,9,4}
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+number=[19,89,89,76,19]
+unique=set(number)
+print(unique)
+number={1,3,56,8}
+print(len(number))
+print(3 in number)
