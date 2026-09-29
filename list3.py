@@ -15,3 +15,11 @@ number.sort()
 print(number)
 for i in number:
     print(i)
+name="prah"
+print(name)
+print(name.upper())
+print(name.lower())
+print(len(number))
+print(number[::-1])
+
+
