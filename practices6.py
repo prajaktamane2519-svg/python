@@ -1,4 +1,4 @@
-a=int(input("enter the number: "))
+a=int(input("enter the number:"))
 b=int(input("enter the number: "))
 print(a+b)
 print(a-b)
@@ -50,3 +50,44 @@ elif marks>60:
     print("c")
 else:
     print("Fail")
+for i in range(1,11):
+    print(i)
+for i in range(2,11,2):
+    print(i)
+for i in range(1,20,2):
+    print(i)
+
+for i  in range(1,20,2):
+    print(i)
+num=20
+for i in range(1,11):
+    print(i*num)
+total=0
+for i in range(1,101):
+    total=total+i
+print(total)
+text="python program"
+count=0
+for ch in text:
+    if ch in "aeiou":
+        count+=1
+print(count)
+i=1
+while i<=10:
+    print(i)
+    i+=1
+i=2
+while i<=20:
+    print(i)
+    i+=2
+i=10
+while i>=1:
+    print(i)
+    i-=1;
+i=1
+total=0
+while i<=100:
+    total+=i
+    i+=1
+print(total) 
+
