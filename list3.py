@@ -21,5 +21,17 @@ print(name.upper())
 print(name.lower())
 print(len(number))
 print(number[::-1])
-
+number=(10,20,30,49)
+print(number)
+print(number[1])
+print(len(number))
+print(number[::-1])
+print(number.count(20))
+print(number.index(20))
+print(30 in number)
+print(number[1:4])
+number=[10,56,89]
+result=tuple(number)
+print(result)
+print(max(number))
 
