@@ -51,3 +51,12 @@ print(unique)
 number={1,3,56,8}
 print(len(number))
 print(3 in number)
+student={"name":"praj",age=3}
+print(student["age"])
+def geet()
+print("hi")
+ geet()
+def add(a,b):
+    return a+b
+result=add(10,20)
+print(result)
