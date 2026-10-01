@@ -20,3 +20,7 @@ if  marks>=35:
     print("pass")
 else:
     print("Fail")
+if m>60:
+    print("age is eligible")
+else:
+    
