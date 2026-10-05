@@ -47,3 +47,13 @@ if n%2==0 and n%3==0:
     print("divible both")
 else:
     print("not divisible")
+n=30
+if n%5==0 and n%6==0:
+    print("divible both")
+else:
+    print("divible not")
+n=56
+if n>=10 and n<=50:
+    print("between 10 and 28")
+else:
+    print("not between")
