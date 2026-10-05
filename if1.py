@@ -57,3 +57,17 @@ if n>=10 and n<=50:
     print("between 10 and 28")
 else:
     print("not between")
+a=20
+b=10
+c=15
+if a>b and a>c:
+    print("a is largest")
+elif b>c:
+    print("b is largest")
+else:
+    print("c is largest")
+name="sharvi"
+if name in "aeiou":
+    print("Vowel")
+else:
+    print("consonant")
