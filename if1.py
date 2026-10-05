@@ -31,4 +31,14 @@ if num%2==0:
     print("Even")
 else:
     print("odd")
-
+num=20
+if num%5==0:
+    print("divisible by 5")
+else:
+    print("not divisible by 5")
+username="abc"
+password="12346"
+if username=="abc" and password=="12346":
+    print("login successful")
+else:
+    print("Invalid login")
