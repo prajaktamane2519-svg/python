@@ -42,3 +42,8 @@ if username=="abc" and password=="12346":
     print("login successful")
 else:
     print("Invalid login")
+n=24
+if n%2==0 and n%3==0:
+    print("divible both")
+else:
+    print("not divisible")
