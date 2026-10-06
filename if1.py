@@ -120,3 +120,13 @@ for i in text.lower():
     if i in "aeiou":
         count+=1
 print(count)
+text="python programming"
+upper=0
+lower=0
+for i in text:
+    if i.upper():
+        upper+=1
+    elif i.lower():
+        lower+=1
+print("uppercase",upper)
+print("lowercase",lower)
