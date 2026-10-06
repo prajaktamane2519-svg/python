@@ -106,3 +106,17 @@ count=0
 for ch in text:
     count+=1
 print(count)
+text="python"
+r=text[::-1]
+print(r)
+text="madam"
+if text==text[::-1]:
+    print("palidrome")
+else:
+    print("not plidrome")
+text="python"
+count=0
+for i in text.lower():
+    if i in "aeiou":
+        count+=1
+print(count)
