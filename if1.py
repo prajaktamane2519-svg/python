@@ -71,3 +71,15 @@ if name in "aeiou":
     print("Vowel")
 else:
     print("consonant")
+num=20
+if num%2==0:
+    print("even number")
+else:
+    print("odd number")
+num=29
+if num>0:
+    print("positive number")
+elif num<0:
+    print("negative number")
+else:
+    print("Zero number")
