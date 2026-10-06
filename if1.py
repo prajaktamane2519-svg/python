@@ -101,3 +101,8 @@ print(text.count("a"))
 print(text.find("o"))
 print(text.replace("p","i"))
 print(text.isalpha())
+text="python"
+count=0
+for ch in text:
+    count+=1
+print(count)
