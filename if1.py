@@ -83,3 +83,21 @@ elif num<0:
     print("negative number")
 else:
     print("Zero number")
+for i in range(1,10):
+    print(i)
+total=0
+for i in range(1,100):
+    total+=i
+print(total)
+text="python"
+print(text[::-1])
+print(len(text))
+print(text.upper())
+print(text.lower())
+print(text[1])
+print(text[-1])
+print(text[1:6])
+print(text.count("a"))
+print(text.find("o"))
+print(text.replace("p","i"))
+print(text.isalpha())
