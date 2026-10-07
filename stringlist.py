@@ -39,3 +39,17 @@ print(num*2)
 age=2
 salary=7000
 print(age>1 and salary>700)
+age=int(input("enter the age :"))
+if age>=18:
+    print("Eligible to vote")
+else:
+    print("not eligible")
+marks=int(input("enter the marks:"))
+if marks>=90:
+    print("A")
+elif marks>=70:
+    print("B")
+elif marks>=60:
+    print("C")
+else:
+    print("D")
