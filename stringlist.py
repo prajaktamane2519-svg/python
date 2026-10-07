@@ -60,3 +60,15 @@ for i in range(2,11,2):
 num=5
 for i in range(1,11):
     print(num*i)
+total=0
+for i in range(1,11):
+    total+=i
+print(total)
+i=1
+while i<=5:
+    print(i)
+    i+=1
+i=2
+while i<=10:
+    print(i)
+    i+=2
