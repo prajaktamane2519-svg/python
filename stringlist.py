@@ -27,3 +27,15 @@ a=int(input("enter the numbe:"))
 b=int(input("enter the numbe :"))
 sum=a+b
 print(sum)
+length=13
+width=9
+area=length*width
+print(area)
+x=100
+y=str(x)
+print(y)
+num=5
+print(num*2)
+age=2
+salary=7000
+print(age>1 and salary>700)
