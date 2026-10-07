@@ -53,3 +53,10 @@ elif marks>=60:
     print("C")
 else:
     print("D")
+for i in range(1,11):
+    print(i)
+for i in range(2,11,2):
+    print(i)
+num=5
+for i in range(1,11):
+    print(num*i)
