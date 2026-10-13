@@ -48,4 +48,9 @@ if text[::-1]==text:
     print("palidrome")
 else:
     print("not palidrome")
-    
+text="equcation"
+count=0
+for ch in text:
+    if ch in "aeiou":
+        count+=1
+print(count)
