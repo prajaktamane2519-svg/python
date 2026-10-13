@@ -54,3 +54,9 @@ for ch in text:
     if ch in "aeiou":
         count+=1
 print(count)
+tex="python"
+print(len(tex))
+print(tex.upper())
+print(tex.lower())
+print(tex.title())
+print(tex.count("a"))
