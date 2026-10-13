@@ -7,3 +7,14 @@ a=67
 b=8
 r=a%b
 print(r)
+a="150"
+b=int(a)
+print(b)
+print(type(b))
+a=30
+b=20
+a,b=b,a
+print(a)
+print(b)
+c=10.67
+print(type(c))
