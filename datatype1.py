@@ -23,3 +23,23 @@ print("x" in text)
 print(text.replace("a","E"))
 print(text.strip())
 print(text.count("t"))
+text="i love python"
+count=0
+for ch in text.lower():
+    if ch in "aeiou":
+        count+=1
+print(count)
+text="i love python"
+count=0
+for ch in text.lower():
+    if ch.isalpha() and ch not in "aeiou":
+        count+=1
+    print(count)
+text="python is easy to learn"
+print(len(text.split()))
+text="python is easy"
+print(text.title())
+text="py th on"
+print(text.replace(" ",""))
+text="12345"
+print(text.isdigit())
