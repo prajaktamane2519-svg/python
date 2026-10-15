@@ -60,3 +60,65 @@ print(tex.upper())
 print(tex.lower())
 print(tex.title())
 print(tex.count("a"))
+n=3
+print(n**3)
+print(type(n))
+str=float(n)
+print(str)
+x="150"
+y=int(x)
+print(type(y))
+age=16
+if 13<=age<=19:
+    print("Teenager")
+else:
+    print("not teenager")
+a=10
+b=20
+c=30
+if a>=b and a>=c:
+    print(a)
+elif b>=a and b>=c:
+    print(b)
+else:
+    print(c)
+year=2023
+if year%4==0:
+    print("leaf year")
+else:
+    print("not leaf year")
+ch="a"
+if ch.lower() in "aeiou":
+    print("vowel")
+else:
+    print("not vowel")
+price=800
+if price>=1000:
+    discount=price*0.10
+else:
+    discount=0
+print(discount)
+marks=89
+income=13000
+if marks>85 and income>20000:
+    print("Eligible")
+else:
+    print("not eligible")
+ch="A"
+if ch.isupper():
+    print("uppercSE")
+else:
+    print("noy uppercase")
+
+n=75
+if 50<=n<=100:
+    print("range")
+else:
+    print("not range")
+units=150
+if units<=100:
+    bill=units*5
+else:
+    bill=100*5+(units-100)*8
+print(
+
