@@ -43,3 +43,7 @@ text="py th on"
 print(text.replace(" ",""))
 text="12345"
 print(text.isdigit())
+text="python"
+print(text.upper())
+print(text.find("h"))
+print(text.lower())
