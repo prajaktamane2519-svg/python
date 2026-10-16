@@ -47,3 +47,12 @@ text="python"
 print(text.upper())
 print(text.find("h"))
 print(text.lower())
+number=[10,20,45,67]
+print(number)
+print(number[0])
+print(number[1])
+print(number[-1])
+number.append(7)
+print(number)
+number.insert(5,56)
+print(number)
